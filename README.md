@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository contains Python demos for common **data structures** and **Big O concepts**, including lists, sets, stacks, queues, hash tables, graphs, and heaps. It also provides examples for basic time complexities like O(1), O(n), O(log n), O(n²), and common sorting and searching algorithms.
+This repository contains Python demos for common **data structures** and **Big O concepts**, including lists, sets, stacks, queues, hash tables, graphs, and heaps. It also provides examples for basic time complexities like O(1), O(n), O(log n), O(n²), common sorting and searching algorithms, and algorithmic strategies like divide & conquer, recursion, and greedy algorithms.
 
 ---
 
@@ -45,5 +45,15 @@ This repository contains Python demos for common **data structures** and **Big O
 | --------------- | -------------------- | ------------------------ | ---------------------- | ---------------- |
 | Linear Search   | O(1)                 | O(n)                     | O(n)                   | O(1)             |
 | Binary Search   | O(1)                 | O(log n)                 | O(log n)               | O(1)             |
+
+---
+
+## Algorithmic Strategies
+
+| Strategy              | Example Algorithm        | Use Case / Notes |
+| --------------------- | ----------------------- | ---------------- |
+| Divide & Conquer      | Merge Sort              | Break problem into subproblems, solve individually, and combine results. |
+| Recursion             | Factorial               | Function calls itself to solve smaller instances of a problem. |
+| Greedy Algorithm      | Coin Change (min coins) | Make the locally optimal choice at each step to find a global optimum. |
 
 This repository has been created to keep notes of my learning in the Meta Coding Interview Preparation Certification course.
